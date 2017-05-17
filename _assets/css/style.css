@@ -1,0 +1,159 @@
+/* font: segoe ui */
+
+div{
+	color: black;
+	background-color: white;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"
+}
+div#inst{
+	text-align: center;
+	font-size: 0.8em;
+}
+h2 a{
+	color: #654139;
+}
+h2 a:hover, h2 a:focus{
+	font-weight: bold;
+	color: #dcc39b;
+}
+img#hero{
+	position: relative;
+	clear: left;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 10px
+}
+h1{
+	text-align: center;
+	font-family: "Myriad Pro";
+	letter-spacing: 10px;
+	font-size: 2.3em;
+	margin-bottom: 0;
+	font-weight: 700
+}
+h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1.3em;
+	font-style: italic;
+	color: #654139;
+}
+h3{
+	font-size: 1.05em
+}
+div.unit{
+	text-align: center;
+}
+div.unit ul{
+	padding-left: 0;
+	text-align: center;
+}
+div.unit ul li{
+	margin: 0;
+	list-style-position: inside;
+	width: 100%;
+}
+a{
+	color: #f5fcd1;
+	text-decoration: none
+}
+div#header {
+    color: #654139;
+    background-color: white;
+	padding: 0px 10px;
+	font-family: Segoe, 'Segoe UI', DejaVu Sans, Trebuchet MS, Verdana,'sans-serif';
+}
+div#header h1{
+	text-align: center;
+	letter-spacing: 15px;
+	font-size: 2em;
+}
+p#sub{
+background-color: transparent;
+text-align: center;
+color: #f5fcd1;
+font-style: italic;
+letter-spacing: 5px;
+margin-top: -25px;
+}
+div.about{
+	float:left;
+	width: 50%;
+}
+div.about h2{
+	letter-spacing: 5px;
+	font-size: 1.3em;
+	line-height: 30px;
+}
+div.about h2 span{
+	font-size: 1.4em;
+	font-style: italic;
+}
+div#reqs{
+	clear: left;
+	margin: 0 auto;
+	width: 80%;
+}
+div#reqs h2{
+	letter-spacing: 5px;
+	font-size: 1.3em;
+	line-height: 30px;
+	text-align: center
+}
+div#wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+div#footer{
+	background-color: #654139;
+	color: #f5fcd1;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 0.8em;
+	letter-spacing: 6px;
+	width: 100%;
+	position: absolute
+}
+/*nav bar begin*/
+div#header nav{
+	text-align: center;
+}
+nav{
+   clear: left;
+	margin-bottom: 20px;
+	width: 100%;
+  }
+nav ul { 
+  display: inline-block;
+  list-style-type: none;
+  }
+nav ul li { 
+  float: left;
+  }
+nav ul li a { 
+  padding: 0.25em 1em;
+  text-decoration: none; /* no underline */
+  color: #654139;
+  border-right: 1px solid #654139;
+	font-size: 0.8em;
+	letter-spacing: 7px;
+}
+nav ul li a#last{ 
+  padding: 0.25em 1em;
+  text-decoration: none; /* no underline */
+  border-right: none; 
+}
+nav ul li a:hover, nav ul li a:focus{
+	font-style: italic;
+	color: #dcc39b;
+}
+/*nav end*/
+body{
+    color: black;
+    font-family: "Segoe UI",  sans-serif;
+	margin: 0
+}
+div#main{
+	padding-bottom:30px;
+}

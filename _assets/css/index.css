@@ -1,0 +1,115 @@
+/* font: segoe ui */
+
+div{
+	color: black;
+	background-color: white;
+}
+a{
+	color: #f5fcd1;
+	text-decoration: none
+}
+div#header {
+    color: #f5fcd1;
+    background-image: url('../image/headerimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+	padding: 10px 10px 100px 10px;
+	font-family: Segoe, 'Segoe UI', DejaVu Sans, Trebuchet MS, Verdana,'sans-serif';
+}
+div#header h1{
+	text-align: center;
+	letter-spacing: 15px;
+	font-size: 2em;
+}
+div#header img{
+	position: absolute;
+}
+p#sub{
+background-color: transparent;
+text-align: center;
+color: #f5fcd1;
+font-style: italic;
+letter-spacing: 5px;
+margin-top: -25px;
+}
+div.about{
+	float: left;
+	width: 40%;
+	padding: 0;
+	margin: 0 20px
+}
+div.about h2{
+	letter-spacing: 5px;
+	font-size: 1.3em;
+	line-height: 30px;
+}
+div.about h2 span{
+	font-size: 1.4em;
+	font-style: italic;
+}
+div#reqs{
+	clear: left;
+	margin: 0 auto;
+	width: 80%;
+}
+div#reqs h2{
+	letter-spacing: 5px;
+	font-size: 1.3em;
+	line-height: 30px;
+	text-align: center
+}
+div#wrapper{
+	width: 80%;
+	margin: auto;
+	padding-left: 20px
+}
+div#footer{
+	background-color: #654139;
+	color: #f5fcd1;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 0.8em;
+	letter-spacing: 6px;
+	width: 100%;
+	position: relative;
+}
+/*nav bar begin*/
+div#header nav{
+	text-align: center;
+}
+nav{
+   clear: left;
+	margin-bottom: 20px;
+	margin-top: 15px
+  }
+nav ul { 
+  display: inline-block;
+  list-style-type: none;
+  }
+nav ul li { 
+  float: left;
+  }
+nav ul li a { 
+  padding: 0.25em 1em;
+  text-decoration: none; /* no underline */
+  color: white;
+  border-right: 1px solid white;
+	font-size: 0.8em;
+	letter-spacing: 7px;
+}
+nav ul li a#last{ 
+  padding: 0.25em 1em;
+  text-decoration: none; /* no underline */
+  border-right: none; 
+}
+nav ul li a:hover, nav ul li a:focus{
+	font-style: italic;
+	color: #f5fcd1;
+}
+/*nav end*/
+body{
+    color: black;
+    font-family: "Segoe UI",  sans-serif;
+	margin: 0
+}
